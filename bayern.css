@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+#container
+{
+    width: 1536px;
+    margin: 0 auto;
+    width: 1536px;
+    margin-left:auto;
+    margin-right: auto;
+}
+#header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    float:left;
+    color:black;
+    background-color: #Be2528;
+    text-align: left;
+    width: 100%;
+}
+#home{
+    background-color: #Be2528;
+}
+#pageA{
+    background-color: #Be2528;
+    
+}
+#pageB{
+    background-color: #Be2528;
+    
+}
+#tekst0{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color:#Be2528;
+    height: 70px;
+}
+#left-section {
+    float:left;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+#left-section img {
+    top:0;
+    left:0;
+    float: left;
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 1;
+    background-color: #Be2528;
+}
+#right-section{
+    position: absolute;
+    top: 0;
+    right: 0;
+    float:left;
+    background-color: #Be2528;
+
+}
+.tile {
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    text-align: center;
+}
+.square{
+    float:left;
+    margin: auto;
+    border-radius: 5%;
+
+}
+
+
+#upper{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 5px;
+    background-color: lightgray;
+}
+#main{
+    float: left;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 170%;
+    z-index: -1;
+    background-image: url('pat.jpg');
+    background-color: rgba(255, 255, 255, 0.1);
+    background-size: contain;
+}
+
+section{
+    margin: 0px;
+    padding: 0px;
+}
+#club{
+    display: block;
+    margin-top: 160px;
+    margin-left: 90px;
+    width: 600px;
+    height: 338px;
+    padding: 10px;
+    background-color: rgb(46,106,192);
+    border-radius: 3%;
+}
+#opis1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #Be2528;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#tekst1{
+    width: 100 px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: auto;
+}
+#stadium{
+    display: block;
+    margin-top: 30px;
+    margin-left: 90px;
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(46,106,192);
+    border-radius: 3%;
+}
+#opis2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #Be2528;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#tekst2{
+    width: 100 px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: auto;
+}
+.box1 ,.box2{
+    float: left;
+}
+
+article{
+    margin-top: 130px;
+    justify-content: center;
+    align-items: center;
+}
+#city{
+    display: block;
+    margin-top: 30px;
+    margin-left: 120px;
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(46,106,192);
+    border-radius: 3%;
+}
+#opis3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #Be2528;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#tekst3{
+    width: 100 px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: auto;
+}
+#maskotka{
+    display: block;
+    width: 600px;
+    padding: 10px;
+    border-radius: 3%;
+    height: auto;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 120px;
+    background-color: rgb(46, 106, 192);
+    border-radius: 3%;
+    height: auto;
+    overflow: hidden;
+}
+#opis4{
+    padding-left: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #Be2528;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 330px;
+}
+#tekst4{
+    display: flex;
+    width: 300px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: auto;
+}
+.mis1 , .mis2{
+    float: left;
+}
+.mis2{
+padding-left: 60px;
+}
+footer {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin-top: 1100px;
+
+}
+
+@media (max-width: 767px) {
+    #container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #left-section {
+        width: 20%;
+    }
+    #right-section {
+        width: 25%;
+    }
+    .tile {
+        width: 100px;
+    }
+    #club,
+    #stadium,
+    #city,
+    #maskotka {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
