@@ -1,6 +1,6 @@
 //linki
 function przekierujhome() {
-    window.location.href = 'bundesliga.html'; 
+    window.location.href = 'index.html'; 
 }
 
 function przekierujbay() {
